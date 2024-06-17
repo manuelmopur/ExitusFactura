@@ -1,0 +1,67 @@
+[
+    {
+        "name": "tecnickcom/tc-lib-color",
+        "version": "1.12.6",
+        "version_normalized": "1.12.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tecnickcom/tc-lib-color.git",
+            "reference": "8921acc8e9c26bdc32c9b08989d42e428af6c660"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tecnickcom/tc-lib-color/zipball/8921acc8e9c26bdc32c9b08989d42e428af6c660",
+            "reference": "8921acc8e9c26bdc32c9b08989d42e428af6c660",
+            "shasum": ""
+        },
+        "require": {
+            "ext-pcre": "*",
+            "php": ">=5.4"
+        },
+        "require-dev": {
+            "apigen/apigen": "^4.1.2",
+            "bartlett/php-compatinfo": "^5.0.4",
+            "pdepend/pdepend": "^2.5.0",
+            "phploc/phploc": "^2.1.5 || ^3.0.1",
+            "phpmd/phpmd": "^2.6.0",
+            "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.0",
+            "sebastian/phpcpd": "^2.0.4 || 3.0.0",
+            "squizlabs/php_codesniffer": "^2.8.0 || ^3.0.0"
+        },
+        "time": "2017-02-12T12:07:38+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Com\\Tecnick\\Color\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "Nicola Asuni",
+                "email": "info@tecnick.com",
+                "role": "lead"
+            }
+        ],
+        "description": "PHP library to manipulate various color representations",
+        "homepage": "http://www.tecnick.com",
+        "keywords": [
+            "cmyk",
+            "color",
+            "colors",
+            "colour",
+            "colours",
+            "hsl",
+            "hsla",
+            "javascript",
+            "rgb",
+            "rgba",
+            "tc-lib-color",
+            "web"
+        ]
+    }
+]

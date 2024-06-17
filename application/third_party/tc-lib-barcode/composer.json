@@ -1,0 +1,28 @@
+{
+    "name": "tecnickcom/tc-lib-barcode",
+    "description": "PHP library to generate linear and bidimensional barcodes",
+    "type": "library",
+    "license": "LGPL-3.0",
+    "keywords": ["tc-lib-barcode", "barcode", "CODE 39", "ANSI MH10.8M-1983", "USD-3", "3 of 9", "CODE 93", "USS-93", "Standard 2 of 5", "Interleaved 2 of 5", "CODE 128 A B C", "UPC", "EAN 8", "EAN 13", "UPC-A", "UPC-E", "MSI", "POSTNET", "PLANET", "RMS4CC", "Royal Mail", "CBC", "KIX", "Klant", "Intelligent Mail Barcode", "Onecode", "USPS-B-3200", "CODABAR", "CODE 11", "PHARMACODE", "PHARMACODE TWO-TRACKS", "Datamatrix", "ECC200", "QR-Code", "PDF417"],
+    "require": {
+        "php": ">=5.4",
+        "ext-bcmath": "*",
+        "ext-date": "*",
+        "ext-gd": "*",
+        "ext-pcre": "*",
+        "tecnickcom/tc-lib-color": "^1.12.6"
+    },
+    "autoload": {
+        "psr-4":{
+            "Com\\Tecnick\\Barcode\\": "src"
+        },
+        "classmap":[
+            "src/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4":{
+            "Test\\": "test"
+        }
+    }
+}
